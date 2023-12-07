@@ -1,57 +1,59 @@
-Projeto de Criação Web com Apache, PHP e Informações Dinâmicas
+# Web Creation Project with Apache, PHP, and Dynamic Information
 
-Este projeto demonstra a configuração de um servidor Apache, a habilitação do PHP e a criação de uma página web com informações dinâmicas, incluindo geolocalização e detalhes do navegador.
-Instalação do Apache e Habilitação do PHP
+This project demonstrates the configuration of an Apache server, enabling PHP, and creating a web page with dynamic information, including geolocation and browser details.
 
-Instalação do Apache:
+## Apache Installation and PHP Enablement
+
+### Apache Installation:
 
     sudo apt update
     sudo apt install apache2
 
-Habilitação do PHP:
+### PHP Enablement:
 
     sudo apt install php libapache2-mod-php
 
-Em seguida, reinicie o Apache:
+Next, restart Apache:
 
     sudo systemctl restart apache2
 
-Criação da Página PHP com Informações Dinâmicas
 
-Clonar o Repositório:
+## Creation of PHP Page with Dynamic Information
 
-Clone este repositório para obter os arquivos necessários:
+### Clone the Repository:
+
+Clone this repository to get the necessary files:
 
     git clone <URL_DO_REPOSITORIO>
 
-Acessar o Diretório:
+### Access the Directory:
 
-Navegue até o diretório do projeto:
+Navigate to the project directory:
 
     cd nome_do_projeto
 
-Abrir o Arquivo PHP:
+### Open the PHP File:
 
-Edite o arquivo index.php no seu editor de código preferido. Este arquivo contém o código PHP e JavaScript para exibir informações dinâmicas na página.
+Edit the `index.php` file in your preferred code editor. This file contains PHP and JavaScript code to display dynamic information on the page.
 
-Executar o Projeto:
+### Run the Project:
 
-Coloque os arquivos no diretório do seu servidor web. Se você seguiu as instruções de instalação, o diretório padrão será /var/www/html. Para isso, você pode copiar os arquivos para este diretório:
+Place the files in your web server directory. If you followed the installation instructions, the default directory will be `/var/www/html`. You can copy the files to this directory:
 
     sudo cp index.php /var/www/html/
 
-Agora, você pode acessar a página no seu navegador em http://localhost/.
+Now, you can access the page in your browser at http://localhost/.
 
-Informações Dinâmicas
+## Dynamic Information
 
-A página PHP exibe informações dinâmicas, incluindo:
+The PHP page displays dynamic information, including:
 
-    IP do Cliente
-    Data Atual
-    Hora Atual
-    Navegador Utilizado
-    Idioma do Navegador
-    Resolução da Tela
-    Tipo de Dispositivo (Desktop ou Mobile)
-    Sistema Operacional do Cliente
-    Tipo de Conexão (Se disponível)
+- Client's IP
+- Current Date
+- Current Time
+- Browser Used
+- Browser Language
+- Screen Resolution
+- Device Type (Desktop or Mobile)
+- Client's Operating System
+- Connection Type (if available)
